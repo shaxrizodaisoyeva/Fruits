@@ -1,0 +1,45 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# ImageNet-1k dataset https://www.image-net.org/index.php by Stanford University
+# Simplified class names from https://github.com/anishathalye/imagenet-simple-labels
+# Example usage: python classify/train.py --data imagenet
+# parent
+# ├── yolov5
+# └── datasets
+#     └── imagenet  ← downloads here (144 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: Dataset\Images  # dataset root dir
+train: Dataset\Images\train  # train images (relative to 'path') 1281167 images
+val: Dataset\Images\val  # val images (relative to 'path') 50000 images
+test:  # test images (optional)
+
+# Classes
+names:
+0: Apple
+1: Banana
+2: Strawberry
+3: Pineapple
+4: Orange
+5: Grape
+6: Mango
+7: Kiwi
+8: Lemon 
+9: Dates
+10: Pomegranate
+11: Watermelon
+12: Peach
+13: Pear
+14: Tangerine
+15: Fig
+16: Avocado
+17: Papaya
+18: Grapefruit
+19: Tamarind
+20: Coconut
+21: Dragon fruit
+22: Litchi
+23: Loquat
+24: Melon
+25: Yellow fig
+26: Sapodilla
